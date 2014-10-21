@@ -70,5 +70,25 @@ b.each do |key, value|
 end
 
 
+f = (1..10).map do |i|
+    i*i
+end
+
+puts f
+
+
+animals = ['horse', 'cat', 'tiger' ]
+
+puts animals.min_by {|i| i.length}
+
+
+
+aa = {:horse => 10, :cat => 3, :cheetah => 60}
+
+
+puts aa
+
+
+puts aa.max_by {|key, value | value}
 
 
