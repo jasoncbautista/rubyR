@@ -46,5 +46,29 @@ a = ['one', 'two', 'three']
 
 a.each do |item|
     puts item
+end
+
+
+
+b = {'a' => 1, 'x' => "one two"}
+
+b['c'] = "hmm"
+
+puts b
+
+
+b.each do |key, value|
+    puts "key: "
+    puts key
+    puts value
+    puts b[key]
+
+
+
+
 
 end
+
+
+
+
