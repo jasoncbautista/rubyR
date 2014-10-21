@@ -30,4 +30,21 @@ puts a[1..3]
 
 
 
+stack = []
+stack.push 1
+stack.push 2
+stack.push 'hello'
+puts stack 
+stack
 
+
+puts stack.pop
+
+
+a = ['one', 'two', 'three']
+
+
+a.each do |item|
+    puts item
+
+end
