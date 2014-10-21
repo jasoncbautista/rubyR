@@ -89,6 +89,10 @@ aa = {:horse => 10, :cat => 3, :cheetah => 60}
 puts aa
 
 
-puts aa.max_by {|key, value | value}
+ra = aa.max_by {|key, value | value}
+puts ra
+
+
+
 
 
