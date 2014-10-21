@@ -16,6 +16,12 @@ ES
 puts string
 
 
+puts string.split
+
+
+
+simple = "simple string one two ocho"
+puts simple .split
 
 a = ['one', 'two', 2, 3.33, "cool"]
 
