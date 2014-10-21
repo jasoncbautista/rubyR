@@ -11,6 +11,13 @@ rvm requirements
 
 rvm install 1.9.3
 
+
+rvm list
+
+
+rvm alias create default ruby-1.9.3-p547
+
+
 ```
 
 
