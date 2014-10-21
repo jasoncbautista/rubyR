@@ -13,6 +13,15 @@ string = <<ES
 
 ES
 
-
-
 puts string
+
+
+
+a = ['one', 'two', 2, 3.33, "cool"]
+
+
+puts a[1..3]
+
+
+
+
