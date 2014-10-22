@@ -94,5 +94,16 @@ puts ra
 
 
 
+aa2 = aa.map do |key, value|
+    value * value 
+end
+
+puts :new_values
+puts aa2
+
+
+
+
+
 
 

@@ -32,5 +32,6 @@ sudo apt-get install ruby 1.9.3
 
 
 
+#Install R
 
-
+ sudo apt-get install r-base r-base-dev 
